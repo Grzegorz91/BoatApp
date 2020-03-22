@@ -1,0 +1,36 @@
+Metrics/BlockLength:
+  Exclude:
+  - 'Rakefile'
+  - '**/*.rake'
+  - 'spec/**/*.rb'
+Layout/HashAlignment:
+  EnforcedHashRocketStyle:
+  - key
+  - table
+  EnforcedColonStyle:
+  - key
+  - table
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+  - 'spec/**/*'
+Style/StringLiterals:
+  Exclude:
+  - 'db/schema.rb'
+Metrics/LineLength:
+  Max: 100
+  Exclude:
+    - 'db/schema.rb'
+Style/NumericLiterals:
+  Exclude:
+    - 'db/schema.rb'
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'bin/*'
+Style/ExpandPathArguments:
+  Exclude:
+    - 'bin/*'
+Style/MixinUsage:
+  Exclude:
+    - 'bin/*'

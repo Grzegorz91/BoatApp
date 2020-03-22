@@ -1,0 +1,22 @@
+.header-border {
+  border: 1px solid rgba(34, 36, 38, 0.1);
+  background-color: #f9fafb;
+}
+
+.header-boat {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em !important;
+}
+
+.header-row {
+  margin-top: 20px;
+}
+
+.row-border {
+  border: 1px solid rgba(34, 36, 38, 0.1);
+  height: 36px;
+}
+
+.input-width {
+  max-width: 350px;
+}

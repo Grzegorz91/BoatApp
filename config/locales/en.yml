@@ -1,0 +1,6 @@
+en:
+  user:
+    unauthorized: 'you are unauthorized'
+    invalid_credentials: 'you have provided invalid credentials'
+    signed_up: 'you have successfully signed up'
+    signed_in: 'you have successfully signed in'
