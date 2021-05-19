@@ -11,7 +11,7 @@ gem 'brakeman'
 gem 'dry-configurable', '0.9.0'
 gem 'jwt'
 gem 'mysql2'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 gem 'rack-cors'
 gem 'rails', '~> 5.2.3'
 gem 'rubocop', require: false
